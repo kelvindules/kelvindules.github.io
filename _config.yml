@@ -30,7 +30,7 @@ github_username:  kelvindules
 # Build settings
 theme: minima
 minima:  
-  skin: solarized-dark
+  skin: sunrise
 plugins:
   - jekyll-feed
 markdown: GFM
