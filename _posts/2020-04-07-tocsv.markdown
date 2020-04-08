@@ -46,7 +46,7 @@ what you'll get by calling the basic .ToCSV()
 
 a formatted example making use of the extension options on a list
 {% highlight c# %}
-*/
+/*
   list output
   
   "Id";"Name";"Birthdate"
