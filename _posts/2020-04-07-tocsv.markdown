@@ -34,18 +34,17 @@ var list = new List<Person> { dean, sam }
   .ToCSV(separator: ";", surroundByQuotes: true, datesFormat: "dd/MM/yyyy");
 {% endhighlight %}
 
-what you'll get by calling the basic Object.ToCSV()
+what you'll get by calling the basic .ToCSV()
 {% highlight c# %}
 /*
   basic output
 
   Id,Name,Birthdate
   1,Dean,1979-01-24
-  2,Sam,1983-05-02
 */
 {% endhighlight %}
 
-a formatted example of the extension options
+a formatted example making use of the extension options on a list
 {% highlight c# %}
 */
   list output
