@@ -29,6 +29,7 @@ github_username:  kelvindules
 
 # Build settings
 theme: minima
+minima:  
   skin: solarized-dark
 plugins:
   - jekyll-feed
