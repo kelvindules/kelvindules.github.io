@@ -23,6 +23,11 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
+      {%- endif -%}
+      {%- if page.categories -%}
+        • {% for category in page.categories %}
+          <code class="highlighter-rouge">{{ category }}</code>
+        {% endfor %}
       {%- endif -%}</p>
   </header>
 

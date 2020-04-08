@@ -37,7 +37,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-markdown: GFM
+#markdown: GFM
 
 # Exclude from processing.
 # The following items will not be processed, by default.

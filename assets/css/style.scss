@@ -5,3 +5,7 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+  .post-meta time, .post-meta span, .post-meta code{
+    margin-right: 3px;
+  }

@@ -3,6 +3,7 @@ layout: post
 title:  "ToCSV Object Extension"
 date:   2020-04-07 16:14:04 -0300
 categories: c# extension
+author: Kelvin Dules
 ---
 
 this is a simple extension that generates a CSV string out of an object.
