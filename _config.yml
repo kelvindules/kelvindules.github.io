@@ -28,11 +28,15 @@ url: "https://kelvin.dules.dev" # the base hostname & protocol for your site, e.
 github_username:  kelvindules
 
 # Build settings
-theme: minima
-minima:  
-  skin: sunrise
+#theme: minima
+
+minima:
+  skin: solarized
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
 markdown: GFM
 
 # Exclude from processing.
