@@ -11,7 +11,7 @@ this is a simple extension that generates a CSV string out of an object.
 ### usage example
 
 create some objects
-{% highlight c# %}
+```c#
 var dean = new Person 
 { 
     Id = 1, 
@@ -24,36 +24,25 @@ var sam = new Person
     Name = "Sam", 
     Birthdate = new DateTime(1983, 05, 02) 
 };
-{% endhighlight %}
-
+```
 call extension
-{% highlight c# %}
+```c#
 var basic = dean.ToCSV();
 
 var list = new List<Person> { dean, sam }
   .ToCSV(separator: ";", surroundByQuotes: true, datesFormat: "dd/MM/yyyy");
-{% endhighlight %}
-
+```
 what you'll get by calling the basic .ToCSV()
-{% highlight c# %}
-/*
-  basic output
-
+```
   Id,Name,Birthdate
   1,Dean,1979-01-24
-*/
-{% endhighlight %}
-
+```
 a formatted example making use of the extension options on a list
-{% highlight c# %}
-/*
-  list output
-  
+```  
   "Id";"Name";"Birthdate"
   "1";"Dean";"24/01/1979"
   "2";"Sam";"02/05/1983"
-*/
-{% endhighlight %}
+```
 
 ### formatting options
 type      | option               | description                                                                 
