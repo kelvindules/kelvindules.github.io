@@ -13,12 +13,10 @@
   .html, body, pre, code, kbd, samp {
     font-family: "Press Start 2P";
   }
-  //  dark-theme colors based on is-dark from NES-style
   .dark-theme {
     background-color: #202428;
     color: white;
   }
-  //  override solarized-dark code block background
-  .highlighter-rouge .highlight{
-    background: #202428;
+  .highlighter-rouge .highlight, pre, code, table th {
+    background: #333;
   }
