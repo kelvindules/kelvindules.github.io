@@ -27,12 +27,12 @@
   table th, table td {
     border: 1px solid #333;
   }
-  code {
+  code, kbd, pre, samp {
     font-size: .8em;
   }
   a {
     color: #e76e55;
   }
-  a:visited {
+  a:hover, a:visited {
     color: #ce372b;
   }
