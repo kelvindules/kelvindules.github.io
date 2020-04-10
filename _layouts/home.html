@@ -31,6 +31,13 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        <p>
+          {%- if page.categories -%}
+            • {% for category in page.categories %}
+            <code class="highlighter-rouge">{{ category }}</code>
+            {% endfor %}
+          {%- endif -%}
+        </p>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
