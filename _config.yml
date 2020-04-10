@@ -31,7 +31,7 @@ github_username:  kelvindules
 #theme: minima
 
 minima:
-  skin: solarized
+  skin: solarized-dark
 
 plugins:
   - jekyll-feed
