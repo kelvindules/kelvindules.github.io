@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "a java csv builder class"
+date:   2020-04-10 23:16:00 -0300
+categories: java csv
+author: kelvin dules
+---
+
+easycsv is a csv builder class that, as the name states, makes object-to-csv easy.
+
+### how to use
+
+```java
+Foo foo = new Foo();
+foo.setId(1);
+foo.setName("bar");
+
+EasyCSV builder = new EasyCSV(foo);
+
+String csv = builder.build()
+```
+
+### output
+
+```
+Id,Name
+1,bar
+```
