@@ -9,7 +9,12 @@
   .post-meta time, .post-meta span, .post-meta code{
     margin-right: 3px;
   }
-
+  .html, body{
+    font-size: .8em;
+  }
+  code, kbd, pre, samp {
+    font-size: .85em!important;
+  }
   .html, body, pre, code, kbd, samp {
     font-family: "Press Start 2P";
   }
@@ -29,9 +34,6 @@
   }
   table th, table td {
     border: 1px solid #333;
-  }
-  code, kbd, pre, samp {
-    font-size: .8em!important;
   }
   a {
     color: #e76e55;
