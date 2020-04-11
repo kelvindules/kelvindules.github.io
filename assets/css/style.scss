@@ -28,7 +28,7 @@
     background-color: #202428;
     color: white;
   }
-  .highlighter-rouge .highlight, code, table th, table tr:nth-child(even)  {
+  .highlighter-rouge .highlight, pre, code, table th, table tr:nth-child(even)  {
     background: #222;
     border: 1px solid #333;
   }
@@ -40,4 +40,10 @@
   }
   a:hover, a:visited {
     color: #ce372b!important;
+  }
+  p {
+    margin-top: 15px;
+  }
+  .highlight {
+    margin-bottom: 0;
   }
