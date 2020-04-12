@@ -12,19 +12,34 @@ easycsv is a csv builder class that, as the name states, makes object-to-csv eas
 
 ```java
 Foo foo = new Foo();
-foo.setId(1);
-foo.setName("bar");
-
-EasyCSV builder = new EasyCSV(foo);
-
-String csv = builder.build()
+foo.setA(1);
+foo.setB(1.1);
+foo.setC("bar");
+String csv = EasyCSV.builder()
+    .setSource(foo)
+    .build();
 ```
 
 ### output
 
 ```
-Id,Name
-1,bar
+A,B,C
+1,1.1,bar
 ```
+
+### currently supported types
+
+* all primitive/wrapper types.
+* java.lang.String
+* java.util.Date
+
+### supporting custom types
+
+easycsv uses a registry class named FormatterRegistry which loads and manages the formatters. In order for it to load your custom formatter, 
+you need to implement `FieldFormatter` and add a line with the package name to the service configuration file at `main/resources/dev.dules.FieldFormatter` (you can always fork this and change the resource file name)
+
+## TODOs
+
+* support (easy) `FieldFormatter` pattern swapping
 
 #### code at [Github](https://github.com/kelvindules/easycsv.git)
