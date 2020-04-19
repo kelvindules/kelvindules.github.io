@@ -10,7 +10,7 @@ easycsv is a csv builder class that, as the name states, makes object-to-csv eas
 
 ---
 
-### how to use
+#### how to use
 
 ```java
 Foo foo = new Foo();
@@ -22,7 +22,7 @@ String csv = EasyCSV.builder()
     .build();
 ```
 
-### output
+#### output
 
 ```
 A,B,C
@@ -31,7 +31,7 @@ A,B,C
 
 ---
 
-### currently supported types
+#### currently supported types
 
 * all primitive/wrapper types.
 * java.lang.String
@@ -39,7 +39,7 @@ A,B,C
 
 ---
 
-### supporting custom types
+#### supporting custom types
 
 easycsv uses a registry class named FormatterRegistry which loads and manages the formatters. 
 
@@ -50,7 +50,7 @@ Ps: custom types have priority over primitive/wrapper types.
 
 ---
 
-## todos
+#### todos
 
 * support on-build `FieldFormatter` pattern swapping
 

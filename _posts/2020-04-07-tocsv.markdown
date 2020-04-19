@@ -8,7 +8,7 @@ author: kelvin dules
 
 this is a simple extension that generates a CSV string out of an object.
 
-### usage example
+#### usage example
 
 create some objects
 ```c#
@@ -44,7 +44,7 @@ a formatted example making use of the extension options on a list
   "2";"Sam";"02/05/1983"
 ```
 
-### formatting options
+#### formatting options
 type      | option               | description                                                                 
 --------- | -------------------- | -----------------------------------------------------------------------------
 `object`  | formattedProperties  | specific formats for specific properties - higher priority over other options
