@@ -1,0 +1,14 @@
+Kelvin Dules:
+  name        : "Kelvin Dules"
+  bio         : "☕"
+  avatar      : "/assets/images/me.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kelvin@dules.dev"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/kelvindules"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/kelvindules"
