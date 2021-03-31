@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I'm a software developer, currently working at [unimed.coop.br](https://unimed.coop.br).
+I'm Kelvin, 26, a software developer currently working at [unimed.coop.br](https://unimed.coop.br).
 
 ## You can find me at
 
-[LinkedIn](https://www.linkedin.com/in/kelvin-dules-20b00910a/)
+[Instagram](https://instagram.com/kelvindules)
+[LinkedIn](https://linkedin.com/in/kelvindules)
+[Twitter](https://twitter.com/kelvindules)
