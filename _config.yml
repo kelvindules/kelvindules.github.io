@@ -30,6 +30,8 @@ github_username:  kelvindules
 # Build settings
 #theme: minima
 
+theme: minima
+
 minima:
   skin: solarized-dark
 
@@ -58,4 +60,3 @@ markdown: GFM
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-theme: jekyll-theme-tactile
