@@ -3,8 +3,11 @@ Kelvin Dules:
   bio         : "☕"
   avatar      : "/assets/images/me.jpg"
   links:
+    - label: "Home"
+      icon: "fas fa-fw fa-home"
+      url: "/"
     - label: "Github"
-      icon: "fas fa-fw fa-github-square"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/kelvindules"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
