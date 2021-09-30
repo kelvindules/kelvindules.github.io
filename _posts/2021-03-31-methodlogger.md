@@ -82,4 +82,4 @@ AwesomeClass -> getDummy(123): {
 ```
 
 ---
-For more details, source at <a href="https://github.com/kelvindules">Github</a>
+For more details, source at <a href="https://github.com/kelvindules/method-logger">Github</a>
