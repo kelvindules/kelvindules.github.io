@@ -13,7 +13,7 @@ author: Kelvin Dules
 markdown: GFM
 
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
-minimal_mistakes_skin: "dirt"
+minimal_mistakes_skin: "sunrise"
 defaults:
   # _pages
   - scope:
