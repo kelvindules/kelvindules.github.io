@@ -6,5 +6,3 @@ layout: home
 author_profile: true
 author: Kelvin Dules
 ---
-
-<script language="JavaScript1.2" src="http://www.kirupa.com/snow2.js"></script>
